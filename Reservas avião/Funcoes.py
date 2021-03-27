@@ -233,8 +233,7 @@ def Cancelar_Reserva(vagas_aviao, cadastro_cliente, reserva, relatorio_cancel):
                     save_temp2 = list(reserva.values())
                     with open('reservas.txt', 'w') as doc:
                         for k in range(0, len(reserva)):
-                            doc.write(f'{str(save_temp[k])} {str(save_temp2[k]).strip("][")[0:1]}'
-                                      f' {str(save_temp2[k]).strip("][")[-1]}\n')
+                            doc.write(f'{str(save_temp[k])} {str(save_temp2[k][0])} {str(save_temp2[k][1])}\n')
                     vagas_aviao[file][cade] = '💺'
                     relatorio_cancel += cpf_reserva
                     with open('relatorio_cancel.txt', 'a') as canc:
