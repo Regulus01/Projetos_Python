@@ -1,6 +1,5 @@
 import string
 
-
 def AmericanAirLines():
     vagas = []
     for x in range(20):
