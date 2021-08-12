@@ -1,7 +1,5 @@
 import string
 
-""" Alunos: José Cláudio, Kaio Ântonio Andrade Rodrigues, Luan De Carvalho Lima, Rodney Assis Furtado - Pycharm"""
-
 
 def AmericanAirLines():
     vagas = []
