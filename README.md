@@ -1,3 +1,3 @@
 # Projetos_Python
-Meus Projetos Enquanto trilho o caminho para aprender python.
+Meus Projetos python.
 Projetos Feito na faculdade, alguns aprimorados logo depois.
